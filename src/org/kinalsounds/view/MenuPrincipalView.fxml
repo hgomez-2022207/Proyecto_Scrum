@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.kinalsounds.controller.MenuPrincipalController">
+   <children>
+      <MenuBar layoutX="173.0" prefHeight="55.0" prefWidth="281.0" stylesheets="@../resource/KinalSounds.css">
+        <menus>
+          <Menu mnemonicParsing="false" text="Genero">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Registro">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="?">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="552.0" fitWidth="315.0" layoutX="471.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/MarcoDerecho.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="501.0" fitWidth="382.0" layoutX="-219.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/MarcoIzqierdo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="552.0" fitWidth="315.0" layoutX="163.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/MarcoDerecho.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="274.0" fitWidth="303.0" layoutX="170.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/LogoPrincipal.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
